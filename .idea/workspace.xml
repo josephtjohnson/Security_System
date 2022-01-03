@@ -5,10 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="368b472a-0f73-475f-8c83-8d3b6c54777c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Security/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/Sensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/Security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/Security.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/CatpointApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/CatpointApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/CatpointGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/CatpointGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/ControlPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/DisplayPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/DisplayPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/ImagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/ImagePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/SensorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/SensorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/StatusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/StatusListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/AlarmStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/data/AlarmStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/ArmingStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/data/ArmingStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/PretendDatabaseSecurityRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/data/PretendDatabaseSecurityRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/SecurityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/data/SecurityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/data/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/SensorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/data/SensorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/service/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/test/java/SecurityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/test/java/SecurityServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +54,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Security/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28965518" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Security\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Security\src\main\com\udacity\catpoint\security" />
       <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Security\src\main\com\udacity\catpoint" />
       <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Image\src\main\com\udacity\catpoint\image\service" />
       <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Image\src\main\com\udacity\catpoint" />
       <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Image\src\main\com\image\service" />
-      <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Security\src\main\com\security" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
