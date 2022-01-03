@@ -5,7 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="368b472a-0f73-475f-8c83-8d3b6c54777c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Image/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/src/main/java/AwsImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Image/src/main/com/udacity/catpoint/image/service/AwsImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/target/classes/AwsImageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/Security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/Security.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/application/CatpointApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/CatpointApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/application/CatpointGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/CatpointGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/application/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/ControlPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/application/DisplayPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/DisplayPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/application/ImagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/ImagePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/application/SensorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/SensorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/application/StatusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/application/StatusListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/data/AlarmStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/AlarmStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/data/ArmingStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/ArmingStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/data/PretendDatabaseSecurityRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/PretendDatabaseSecurityRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/data/SecurityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/SecurityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/data/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/data/SensorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/SensorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/service/FakeImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Image/src/main/com/udacity/catpoint/image/service/FakeImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/service/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/service/StyleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Image/src/main/com/udacity/catpoint/image/service/StyleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/application/CatpointApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/application/CatpointGui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/application/ControlPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/application/DisplayPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/application/ImagePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/application/SensorPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/application/StatusListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/data/AlarmStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/data/ArmingStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/data/PretendDatabaseSecurityRepositoryImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/data/PretendDatabaseSecurityRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/data/SecurityRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/data/Sensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/data/SensorType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/service/FakeImageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/service/SecurityService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/service/SecurityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/service/StyleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +56,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,13 +74,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Security/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28965518" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Security\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Security\src\main\com\udacity\catpoint" />
+      <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Image\src\main\com\udacity\catpoint\image\service" />
+      <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Image\src\main\com\udacity\catpoint" />
+      <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Image\src\main\com\image\service" />
+      <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Security\src\main\com\security" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
