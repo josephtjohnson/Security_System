@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="368b472a-0f73-475f-8c83-8d3b6c54777c" name="Changes" comment="" />
+    <list default="true" id="368b472a-0f73-475f-8c83-8d3b6c54777c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Security/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/data/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +52,9 @@
       <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Image\src\main\com\udacity\catpoint" />
       <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Image\src\main\com\image\service" />
       <recent name="C:\Users\Johns\IdeaProjects\catpoint-parent\Security\src\main\com\security" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
