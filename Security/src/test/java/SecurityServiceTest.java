@@ -1,10 +1,6 @@
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
-import com.udacity.catpoint.image.service.AwsImageService;
-import com.udacity.catpoint.security.data.*;
-import com.udacity.catpoint.security.application.StatusListener;
-import service.SecurityService;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -18,7 +14,7 @@ public class SecurityServiceTest
      * Rigorous Test :-)
      */
 
-    private SecurityService securityService;
+ //   private SecurityService securityService;
 
     @Test
     public void shouldAnswerWithTrue()
