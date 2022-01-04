@@ -19,11 +19,11 @@ import java.util.Set;
  */
 public class SecurityService {
 
-    private FakeImageService imageService;
+    private service.FakeImageService imageService;
     private SecurityRepository securityRepository;
     private Set<StatusListener> statusListeners = new HashSet<>();
 
-    public SecurityService(SecurityRepository securityRepository, FakeImageService imageService) {
+    public SecurityService(SecurityRepository securityRepository, service.FakeImageService imageService) {
         this.securityRepository = securityRepository;
         this.imageService = imageService;
     }

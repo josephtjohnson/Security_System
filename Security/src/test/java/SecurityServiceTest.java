@@ -4,6 +4,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import com.udacity.catpoint.image.service.AwsImageService;
 import com.udacity.catpoint.security.data.*;
 import com.udacity.catpoint.security.application.StatusListener;
+import service.SecurityService;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

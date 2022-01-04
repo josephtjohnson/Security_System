@@ -5,4 +5,5 @@ module com.udacity.catpoint.image{
     requires software.amazon.awssdk.regions;
     requires java.desktop;
     exports com.udacity.catpoint.image.service;
+    exports service;
 }
