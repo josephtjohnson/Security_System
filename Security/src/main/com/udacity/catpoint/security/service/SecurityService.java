@@ -5,7 +5,6 @@ import data.AlarmStatus;
 import data.ArmingStatus;
 import data.SecurityRepository;
 import data.Sensor;
-
 import java.awt.image.BufferedImage;
 import java.util.HashSet;
 import java.util.Set;

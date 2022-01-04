@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="368b472a-0f73-475f-8c83-8d3b6c54777c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/Image.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Image/Image.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Image/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Image/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/Security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/Security.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/service/SecurityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/test/java/SecurityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/test/java/SecurityServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
