@@ -11,9 +11,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="catpoint-parent" target="17" />
-      <module name="Image" target="17" />
-      <module name="Security" target="17" />
+      <module name="catpoint-parent" target="14" />
+      <module name="Image" target="14" />
+      <module name="Security" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>
