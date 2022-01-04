@@ -5,47 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="368b472a-0f73-475f-8c83-8d3b6c54777c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/Image.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Image/Image.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Image/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/src/main/com/udacity/catpoint/image/service/AwsImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Image/src/main/java/com/udacity/catpoint/image/service/AwsImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/src/main/com/udacity/catpoint/image/service/FakeImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Image/src/main/java/com/udacity/catpoint/image/service/FakeImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/src/main/com/udacity/catpoint/image/service/StyleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/service/StyleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/src/main/java/com/udacity/catpoint/image/service/dummy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/target/classes/AwsImageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/target/classes/com/udacity/catpoint/image/service/dummy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/Image/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/target/classes/service/FakeImageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/target/classes/service/StyleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/Security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/Security.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/CatpointApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/application/CatpointApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/CatpointGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/application/CatpointGui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/application/ControlPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/DisplayPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/application/DisplayPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/ImagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/application/ImagePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/SensorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/application/SensorPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/application/StatusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/application/StatusListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/data/AlarmStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/data/AlarmStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/data/ArmingStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/data/ArmingStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/data/PretendDatabaseSecurityRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/data/PretendDatabaseSecurityRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/data/SecurityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/data/SecurityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/data/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/data/Sensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/data/SensorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/data/SensorType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/com/udacity/catpoint/security/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/service/SecurityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/test/java/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/test/java/SecurityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/test/java/com/udacity/catpoint/security/service/SecurityServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/test-classes/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/test-classes/SecurityServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/test-classes/SecurityServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catpoint-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/catpoint-parent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/service/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/test/java/com/udacity/catpoint/security/service/SecurityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/test/java/com/udacity/catpoint/security/service/SecurityServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
