@@ -52,6 +52,7 @@ public class SecurityServiceTest
     {
         when(securityRepository.getArmingStatus()).thenReturn(ArmingStatus.ARMED_HOME);
         when(securityRepository.getAlarmStatus()).thenReturn(AlarmStatus.NO_ALARM);
+        doorSensor.setActive(false);
         securityService.changeSensorActivationStatus(doorSensor, true);
         verify(securityRepository).setAlarmStatus(AlarmStatus.PENDING_ALARM);
     }
@@ -60,6 +61,7 @@ public class SecurityServiceTest
     public void shouldSetPendingAlarmStatusToArmed () {
         when(securityRepository.getArmingStatus()).thenReturn(ArmingStatus.ARMED_HOME);
         when(securityRepository.getAlarmStatus()).thenReturn(AlarmStatus.PENDING_ALARM);
+        windowSensor.setActive(false);
         securityService.changeSensorActivationStatus(windowSensor, true);
         verify(securityRepository).setAlarmStatus(AlarmStatus.ALARM);
     }
