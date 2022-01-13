@@ -138,9 +138,8 @@ public class SecurityServiceTest
     @Test
     public void systemArmedHomeCatIdentifiedSetStatusAlarm () {
         when(imageService.imageContainsCat(any(), anyFloat())).thenReturn(true);
-        when(securityService.getArmingStatus()).thenReturn(ArmingStatus.DISARMED);
+        when(securityService.getArmingStatus()).thenReturn(ArmingStatus.ARMED_HOME);
         securityService.processImage(mock(BufferedImage.class));
-        securityService.setArmingStatus(ArmingStatus.ARMED_HOME);
         verify(securityRepository).setAlarmStatus(AlarmStatus.ALARM);
     }
 
