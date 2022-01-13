@@ -122,7 +122,7 @@ public class SecurityServiceTest
     //Test 9
     @Test
     public void systemDisArmedSetStatusNoAlarm () {
-        when(securityService.getArmingStatus()).thenReturn(ArmingStatus.DISARMED);
+        securityService.setArmingStatus(ArmingStatus.DISARMED);
         verify(securityRepository).setAlarmStatus(AlarmStatus.NO_ALARM);
     }
     //Test 10
