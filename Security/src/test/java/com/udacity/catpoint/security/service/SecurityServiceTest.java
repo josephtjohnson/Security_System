@@ -78,8 +78,10 @@ public class SecurityServiceTest
     @Test
     public void shouldNotChangeAlarmState () {
         when(securityRepository.getAlarmStatus()).thenReturn(AlarmStatus.ALARM);
-        doorSensor.setActive(false);
-        verify(securityRepository).setAlarmStatus(AlarmStatus.ALARM);
+        motionSensor.setActive(false);
+        securityService.changeSensorActivationStatus(motionSensor, true);
+        verify(securityRepository, never()).setAlarmStatus(AlarmStatus.NO_ALARM);
+        verify(securityRepository, never()).setAlarmStatus(AlarmStatus.PENDING_ALARM);
     }
     //Test 5
     @Test
