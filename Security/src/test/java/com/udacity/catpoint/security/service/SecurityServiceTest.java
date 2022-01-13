@@ -17,15 +17,9 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyFloat;
 import static org.mockito.Mockito.*;
 
-/**
- * Unit test for simple App.
- */
 @ExtendWith(MockitoExtension.class)
 public class SecurityServiceTest
 {
-    /**
-     * Rigorous Test :-)
-     */
     @Mock
     private SecurityService securityService;
 
@@ -37,10 +31,14 @@ public class SecurityServiceTest
 
     @Mock
     private SecurityRepository securityRepository;
-
+    
+    Set<Sensor> sensorCollection = new HashSet<>();
     Sensor doorSensor = new Sensor("DOOR", SensorType.DOOR);
     Sensor windowSensor = new Sensor("WINDOW", SensorType.WINDOW);
-    Sensor motionSensor = new Sensor("WINDOW", SensorType.MOTION);
+    Sensor motionSensor = new Sensor("MOTION", SensorType.MOTION);
+    sensorCollection.add(doorSensor);
+    sensorCollection.add(windowSensor);
+    sensorCollection.add(motionSensor);
 
     @BeforeEach
     void setUp() {
@@ -126,12 +124,15 @@ public class SecurityServiceTest
         verify(securityRepository).setAlarmStatus(AlarmStatus.NO_ALARM);
     }
     //Test 10
-    @Test
-    public void systemArmedResetSensorsToInactive () {
-        doorSensor.setActive(true);
-        when(securityService.getArmingStatus()).thenReturn(ArmingStatus.ARMED_HOME);
-        assertTrue(securityService.getSensors().stream().allMatch(sensor ->
-                Boolean.FALSE.equals(sensor.getActive())));
+    @ParameterizedTest
+    @EnumSource(value = ArmingStatus.class, names = {"ARMED_AWAY", "ARMED_HOME"}
+    public void systemArmedResetSensorsToInactive (ArmingStatus status) {
+        when(securityRepository.getAlarmStatus()).thenReturn(AlarmStatus.PENDING_ALARM);
+        sensorCollection.forEach(sensor -> {
+            sensor.setActive(true)});
+        securityService.setArmingStatus(status);
+        sensorCollection.forEach(sensor -> {
+            assertEquals(false, sensor.getActive())};        
     }
     //Test 11
     @Test
