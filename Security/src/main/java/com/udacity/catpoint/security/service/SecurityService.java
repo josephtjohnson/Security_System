@@ -10,6 +10,7 @@ import com.udacity.catpoint.security.data.Sensor;
 import java.awt.image.BufferedImage;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.concurrent.ConcurrentSkipListSet;
 
 /**
  * Service that receives information about changes to the security system. Responsible for
@@ -43,6 +44,12 @@ public class SecurityService {
         }
         securityRepository.setArmingStatus(armingStatus);
     }
+    /**
+     * Internal method that returns all sensor states.
+     */
+    private boolean sensorsStatus (boolean status) {
+        return getSensors().stream().allMatch(s -> s.getActive() == status);
+    }
 
     /**
      * Internal method that handles alarm status changes based on whether
@@ -52,7 +59,7 @@ public class SecurityService {
     private void catDetected(Boolean cat) {
         if(cat && getArmingStatus() == ArmingStatus.ARMED_HOME) {
             setAlarmStatus(AlarmStatus.ALARM);
-        } else if (!cat && !sensor.getActive()) {
+        } else if (!cat && sensorsStatus(false)) {
             setAlarmStatus(AlarmStatus.NO_ALARM);
         }
 
