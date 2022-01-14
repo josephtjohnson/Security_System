@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="368b472a-0f73-475f-8c83-8d3b6c54777c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/Image.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Image/Image.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/target/Image-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Image/target/Image-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/target/classes/com/udacity/catpoint/image/service/AwsImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Image/target/classes/com/udacity/catpoint/image/service/AwsImageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/target/classes/com/udacity/catpoint/image/service/FakeImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Image/target/classes/com/udacity/catpoint/image/service/FakeImageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Image/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/Security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/Security.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/service/SecurityService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Security/src/test/java/com/udacity/catpoint/security/service/SecurityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/test/java/com/udacity/catpoint/security/service/SecurityServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/classes/com/udacity/catpoint/security/application/CatpointGui.class" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/classes/com/udacity/catpoint/security/application/CatpointGui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/classes/com/udacity/catpoint/security/service/SecurityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/classes/com/udacity/catpoint/security/service/SecurityService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/test-classes/SecurityServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/classes/com/udacity/catpoint/security/service/SecurityService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SecurityServiceTest.shouldNotChangeAlarmState">
-    <configuration name="CatpointApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udacity.catpoint.security.application.CatpointApp" />
-      <module name="Security" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udacity.catpoint.security.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SecurityServiceTest.shouldBeInPendingAlarmStatus">
     <configuration name="SecurityServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Security" />
       <extension name="coverage">
@@ -118,6 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecurityServiceTest.shouldBeInPendingAlarmStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udacity.catpoint.security.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udacity.catpoint.security.service" />
+      <option name="MAIN_CLASS_NAME" value="com.udacity.catpoint.security.service.SecurityServiceTest" />
+      <option name="METHOD_NAME" value="shouldBeInPendingAlarmStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SecurityServiceTest.shouldNotChangeAlarmState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Security" />
       <extension name="coverage">
@@ -134,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecurityServiceTest.shouldReturnNoAlarmStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecurityServiceTest.systemArmedHomeCatIdentifiedSetStatusAlarm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Security" />
       <extension name="coverage">
         <pattern>
@@ -144,7 +141,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.udacity.catpoint.security.service" />
       <option name="MAIN_CLASS_NAME" value="com.udacity.catpoint.security.service.SecurityServiceTest" />
-      <option name="METHOD_NAME" value="shouldReturnNoAlarmStatus" />
+      <option name="METHOD_NAME" value="systemArmedHomeCatIdentifiedSetStatusAlarm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SecurityServiceTest.shouldBeInPendingAlarmStatus" />
+        <item itemvalue="JUnit.SecurityServiceTest.systemArmedHomeCatIdentifiedSetStatusAlarm" />
         <item itemvalue="JUnit.SecurityServiceTest.shouldNotChangeAlarmState" />
         <item itemvalue="JUnit.SecurityServiceTest" />
         <item itemvalue="JUnit.SecurityServiceTest.sensorDeactivatedWhileInactiveNoChangeToAlarmState" />
-        <item itemvalue="JUnit.SecurityServiceTest.shouldReturnNoAlarmStatus" />
-        <item itemvalue="Application.CatpointApp (1)" />
       </list>
     </recent_temporary>
   </component>
