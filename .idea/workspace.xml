@@ -6,37 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="368b472a-0f73-475f-8c83-8d3b6c54777c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/css/maven-base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/css/maven-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/css/print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/dependencies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/dependency-info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/images/close.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/images/collapsed.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/images/expanded.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/images/external.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/images/icon_error_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/images/icon_info_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/images/icon_success_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/images/icon_warning_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/images/logos/build-by-maven-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/images/logos/build-by-maven-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/images/logos/maven-feather.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/images/newwindow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/plugin-management.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/plugins.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/project-info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/project-reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/spotbugs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/site/summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/spotbugs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/spotbugsXml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/surefire-reports/TEST-com.udacity.catpoint.security.service.SecurityServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/surefire-reports/TEST-com.udacity.catpoint.security.service.SecurityServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/surefire-reports/com.udacity.catpoint.security.service.SecurityServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/surefire-reports/com.udacity.catpoint.security.service.SecurityServiceTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
