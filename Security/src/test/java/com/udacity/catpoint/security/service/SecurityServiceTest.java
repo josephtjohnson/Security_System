@@ -21,13 +21,13 @@ import static org.mockito.Mockito.*;
 public class SecurityServiceTest
 {
     @Mock
-    private SecurityService securityService;
+    public SecurityService securityService;
 
     @Mock
-    private ImageServiceInterface imageService;
+    public ImageServiceInterface imageService;
 
     @Mock
-    private SecurityRepository securityRepository;
+    public SecurityRepository securityRepository;
 
     static HashSet<Sensor> sensorCollection = new HashSet<>();
 
