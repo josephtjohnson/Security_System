@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="368b472a-0f73-475f-8c83-8d3b6c54777c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/service/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/test/java/com/udacity/catpoint/security/service/SecurityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/test/java/com/udacity/catpoint/security/service/SecurityServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/classes/com/udacity/catpoint/security/service/SecurityService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/classes/com/udacity/catpoint/security/service/SecurityService$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Security/target/classes/com/udacity/catpoint/security/service/SecurityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/classes/com/udacity/catpoint/security/service/SecurityService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Security/target/surefire-reports/TEST-com.udacity.catpoint.security.service.SecurityServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/surefire-reports/TEST-com.udacity.catpoint.security.service.SecurityServiceTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Security/target/surefire-reports/com.udacity.catpoint.security.service.SecurityServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/surefire-reports/com.udacity.catpoint.security.service.SecurityServiceTest.txt" afterDir="false" />
@@ -108,22 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecurityServiceTest.sensorDeactivatedWhileInactiveNoChangeToAlarmState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Security" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udacity.catpoint.security.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.udacity.catpoint.security.service" />
-      <option name="MAIN_CLASS_NAME" value="com.udacity.catpoint.security.service.SecurityServiceTest" />
-      <option name="METHOD_NAME" value="sensorDeactivatedWhileInactiveNoChangeToAlarmState" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SecurityServiceTest.shouldBeInAlarmStatusSetToPendingAlarm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Security" />
       <extension name="coverage">
@@ -140,7 +123,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecurityServiceTest.shouldReturnNoAlarmStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecurityServiceTest.systemArmedSetStatusAlarm (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Security" />
       <extension name="coverage">
         <pattern>
@@ -150,7 +133,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.udacity.catpoint.security.service" />
       <option name="MAIN_CLASS_NAME" value="com.udacity.catpoint.security.service.SecurityServiceTest" />
-      <option name="METHOD_NAME" value="shouldReturnNoAlarmStatus" />
+      <option name="METHOD_NAME" value="systemArmedSetStatusAlarm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityServiceTest.systemArmedSetStatusAlarm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udacity.catpoint.security.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udacity.catpoint.security.service" />
+      <option name="MAIN_CLASS_NAME" value="com.udacity.catpoint.security.service.SecurityServiceTest" />
+      <option name="METHOD_NAME" value="systemArmedSetStatusAlarm(com.udacity.catpoint.security.data.ArmingStatus)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,10 +169,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SecurityServiceTest" />
+        <item itemvalue="JUnit.SecurityServiceTest.systemArmedSetStatusAlarm (1)" />
+        <item itemvalue="JUnit.SecurityServiceTest.systemArmedSetStatusAlarm" />
         <item itemvalue="JUnit.SecurityServiceTest.shouldBeInAlarmStatusSetToPendingAlarm" />
         <item itemvalue="Application.CatpointApp" />
-        <item itemvalue="JUnit.SecurityServiceTest.shouldReturnNoAlarmStatus" />
-        <item itemvalue="JUnit.SecurityServiceTest.sensorDeactivatedWhileInactiveNoChangeToAlarmState" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +200,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/UdaSecurity$SecurityServiceTest.ic" NAME="SecurityServiceTest Coverage Results" MODIFIED="1642645351052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/UdaSecurity$SecurityServiceTest.ic" NAME="SecurityServiceTest Coverage Results" MODIFIED="1642646758711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.udacity.catpoint.security.service.*</FILTER>
     </SUITE>
   </component>

@@ -144,5 +144,14 @@ public class SecurityServiceTest
         securityService.processImage(mock(BufferedImage.class));
         verify(securityRepository).setAlarmStatus(AlarmStatus.ALARM);
     }
+
+    //Test 12
+    @Test
+    public void systemArmedSetStatusAlarm () {
+        when(securityService.getArmingStatus()).thenReturn(ArmingStatus.ARMED_HOME);
+        when(imageService.imageContainsCat(any(), anyFloat())).thenReturn(true);
+        securityService.processImage(mock(BufferedImage.class));
+        verify(securityRepository).setAlarmStatus(AlarmStatus.ALARM);
+    }
 }
 
