@@ -24,6 +24,7 @@ public class SecurityService {
     private ImageServiceInterface imageService;
     private SecurityRepository securityRepository;
     private Set<StatusListener> statusListeners = new HashSet<>();
+    private Boolean catDetection = false;
 
     public SecurityService(SecurityRepository securityRepository, ImageServiceInterface imageService) {
         this.securityRepository = securityRepository;
@@ -36,6 +37,9 @@ public class SecurityService {
      * @param armingStatus
      */
     public void setArmingStatus(ArmingStatus armingStatus) {
+        if(catDetection && armingStatus == ArmingStatus.ARMED_HOME) {
+            setAlarmStatus(AlarmStatus.ALARM);
+        }
         if(armingStatus == ArmingStatus.DISARMED) {
             setAlarmStatus(AlarmStatus.NO_ALARM);
         } else {
@@ -58,6 +62,7 @@ public class SecurityService {
      * @param cat True if a cat is detected, otherwise false.
      */
     private void catDetected(Boolean cat) {
+        catDetection = cat;
         if(cat && getArmingStatus() == ArmingStatus.ARMED_HOME) {
             setAlarmStatus(AlarmStatus.ALARM);
         } else if (!cat && sensorsStatus(false)) {
@@ -105,9 +110,11 @@ public class SecurityService {
      * Internal method for updating the alarm status when a sensor has been deactivated
      */
     private void handleSensorDeactivated() {
-        switch(securityRepository.getAlarmStatus()) {
-            case PENDING_ALARM -> setAlarmStatus(AlarmStatus.NO_ALARM);
-            case ALARM -> setAlarmStatus(AlarmStatus.PENDING_ALARM);
+        if (securityRepository.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
+            setAlarmStatus(AlarmStatus.NO_ALARM);
+
+            //removed - if a sensor goes inactive it shouldn't turn off the alarm
+            //case ALARM -> setAlarmStatus(AlarmStatus.PENDING_ALARM);
         }
     }
 
@@ -118,6 +125,7 @@ public class SecurityService {
      */
     public void changeSensorActivationStatus(Sensor sensor, Boolean active) {
         AlarmStatus currentAlarmStatus = securityRepository.getAlarmStatus();
+
         if (currentAlarmStatus != AlarmStatus.ALARM) {
             if(!sensor.getActive() && active) {
                 handleSensorActivated();
