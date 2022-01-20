@@ -151,7 +151,8 @@ public class SecurityServiceTest
         when(securityService.getArmingStatus()).thenReturn(ArmingStatus.ARMED_HOME);
         when(imageService.imageContainsCat(any(), anyFloat())).thenReturn(true);
         securityService.processImage(mock(BufferedImage.class));
-        verify(securityRepository).setAlarmStatus(AlarmStatus.ALARM);
+        securityService.setArmingStatus(securityService.getArmingStatus());
+        verify(securityRepository, times(2)).setAlarmStatus(AlarmStatus.ALARM);
     }
 }
 

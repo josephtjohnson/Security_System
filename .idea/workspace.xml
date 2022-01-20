@@ -7,11 +7,6 @@
     <list default="true" id="368b472a-0f73-475f-8c83-8d3b6c54777c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Security/src/test/java/com/udacity/catpoint/security/service/SecurityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/test/java/com/udacity/catpoint/security/service/SecurityServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/classes/com/udacity/catpoint/security/service/SecurityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/classes/com/udacity/catpoint/security/service/SecurityService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/surefire-reports/TEST-com.udacity.catpoint.security.service.SecurityServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/surefire-reports/TEST-com.udacity.catpoint.security.service.SecurityServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/target/surefire-reports/com.udacity.catpoint.security.service.SecurityServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/surefire-reports/com.udacity.catpoint.security.service.SecurityServiceTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +195,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/UdaSecurity$SecurityServiceTest.ic" NAME="SecurityServiceTest Coverage Results" MODIFIED="1642646758711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/UdaSecurity$SecurityServiceTest.ic" NAME="SecurityServiceTest Coverage Results" MODIFIED="1642695169793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.udacity.catpoint.security.service.*</FILTER>
     </SUITE>
   </component>
