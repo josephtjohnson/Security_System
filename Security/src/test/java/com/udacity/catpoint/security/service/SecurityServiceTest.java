@@ -20,7 +20,7 @@ import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class)
 public class SecurityServiceTest
 {
-    @Mock
+
     public SecurityService securityService;
 
     @Mock
