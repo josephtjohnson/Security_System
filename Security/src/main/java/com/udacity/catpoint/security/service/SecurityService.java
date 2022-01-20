@@ -43,6 +43,7 @@ public class SecurityService {
             sensorSet.forEach(sensor -> changeSensorActivationStatus(sensor, false));
         }
         securityRepository.setArmingStatus(armingStatus);
+        statusListeners.forEach(StatusListener::sensorStatusChanged);
     }
     /**
      * Internal method that returns all sensor states.

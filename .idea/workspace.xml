@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="368b472a-0f73-475f-8c83-8d3b6c54777c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/application/SensorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/application/SensorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Security/src/main/java/com/udacity/catpoint/security/service/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Security/target/Security-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
